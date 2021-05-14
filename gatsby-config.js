@@ -1,4 +1,3 @@
-const tailwind = require("tailwindcss")
 const path = require("path")
 
 module.exports = {
@@ -8,7 +7,6 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,    
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

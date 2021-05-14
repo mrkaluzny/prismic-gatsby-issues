@@ -21,11 +21,7 @@ const Gallery = ({ data }) => {
         <div
           className="gallery__grid 
         "
-        >
-          {gallery.map((item, i) => {
-            {item.image1.alt}
-          })}
-        </div>
+        ></div>
         <div className="flex justify-center items-center">
           {section.alt_link && (
             <Link
